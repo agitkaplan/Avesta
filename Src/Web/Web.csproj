@@ -7,6 +7,7 @@
     <InvariantGlobalization>true</InvariantGlobalization>
     <AssemblyName>Avesta.$(MSBuildProjectName)</AssemblyName>
     <RootNamespace>Avesta.$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
+    <UserSecretsId>5ecfe38d-e829-4dc8-ae8e-915a1b5399fd</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
