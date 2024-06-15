@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>Avesta.$(MSBuildProjectName)</AssemblyName>
+    <RootNamespace>Avesta.$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Cryptography\" />
+    <Folder Include="SettingComparer\" />
+    <Folder Include="SettingDeployer\" />
+    <Folder Include="SettingManager\" />
+    <Folder Include="System\" />
+    <Folder Include="User\" />
+  </ItemGroup>
+
+</Project>
