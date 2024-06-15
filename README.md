@@ -1,5 +1,14 @@
 # Avesta Setting Manager
-This is a setting manager software which is integrated with software development processes.
+Avesta is a setting manager software which is integrated with software development processes.
+
+It provides an encypted key vault for both your secrets and setting.
+
+It also provides secure a setting deployment module which will work on a "deployment instructions" so that you do not need to expose your setting through deployment process.
+
+It has setting comparison module which will be capable of producing deployment instructions so that you enclose the difference between your applications' settings.
 
 
-There will be more details on this document when the project advanced technically.
+# The project's principles are as below
+* Simplicity
+* Security
+* Reliability
