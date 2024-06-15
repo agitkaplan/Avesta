@@ -1,3 +1,7 @@
+using Avesta.Core.Cryptography;
+using Avesta.Core.System;
+using Microsoft.Extensions.Configuration;
+
 namespace Avesta.Web
 {
     public class Program
@@ -7,8 +11,11 @@ namespace Avesta.Web
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
+            builder.Services.AddTransient<CryptographyService>();
 
             builder.Services.AddControllers();
+
+            builder.Services.Configure<CoreOptions>(builder.Configuration.GetSection(CoreOptions.Key));
 
             var app = builder.Build();
 
